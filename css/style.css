@@ -1,0 +1,136 @@
+header section {
+    display: inline;
+    height: 70px;
+
+
+}
+
+header{
+    height: 70px;
+    background-color: rgb(128, 128, 128);
+}
+
+header section a {
+    font-weight: bold;
+    font-size: large;
+    color: white;
+    text-decoration-line: none;
+
+}
+
+header section a:nth-child(1){
+    padding-left: 80px;
+}
+header section a:nth-child(2){
+    padding-left: 50px;
+    
+}
+header section a:nth-child(3){
+    padding-left: 50px;
+    
+}
+header section a:nth-child(4){
+    padding-left: 50px;
+    
+}
+
+
+
+
+
+header section:nth-child(1) {
+    padding-left: 0px;
+
+}
+
+header section:nth-child(2) {
+  padding-left: 21.5px;
+  
+}
+
+
+
+main div img {
+    width: 960px;
+    height: 450px;
+}
+
+html {
+    width: 960px;
+}
+
+main section img{
+     
+    height: 375px;
+
+}
+
+main section img:nth-child(2){
+    padding-left: 26px;
+
+}
+main section img:nth-child(1){
+    padding-left: 0%;
+
+}
+
+
+
+main section img:nth-child(3){
+    padding-left: 26px;
+
+}
+
+main section{
+    height: 375px;
+}
+
+main nav {
+    height: 400px;
+    
+}
+
+main nav ul li:nth-child(2){
+    
+    float: right;
+    height: 400px;
+    width: 450px;
+
+
+}
+
+main nav ul {
+    grid-template-columns: auto auto;
+    height: 400px;
+
+}
+
+main nav ul li:nth-child(1){
+    width: 480px;
+    height: 400px;
+    float: left;
+
+}
+
+
+main nav h3 {
+    font-size: 120%;
+}
+
+main nav a{
+    text-decoration: none;
+    text-decoration: solid;
+    color: whitesmoke;
+    background-color: black;
+    width: 50px;
+    height: 50px;
+
+
+}
+
+footer{
+    background-color: rgba(128, 128, 128, 0.712);
+}
+
+
+
